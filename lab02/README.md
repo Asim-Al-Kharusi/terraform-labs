@@ -5,7 +5,7 @@ I went over the potential use cases of a remote backend in Lab01. This lab will 
 
 ### Architecture
 
-![Lab02 Diagram](/images/Lab02_Architecture.png)
+![Lab02 Diagram](/lab02/images/Lab02-Architecture.png)
 
 ## Terraform Setup
 
