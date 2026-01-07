@@ -11,6 +11,7 @@ The terraform core workflow is the lifecycle that users will use through their j
 <details>
 <summary>1. Initialisation </summary>
 This step is the first thing that should be done in order to get started after having written a new configuration and will perform the following: 
+
 * Initialise the working directory that contains the terraform config files.
 * Download necessary providers and modules.
 * Configures the backend.
@@ -69,6 +70,9 @@ Terraform uses states to understand:
 * What resources exist
 * How they are configured
 * Changes made to reach desired state
+
+[!WARNING]
+Sensitive data is exposed in the terraform state file. 
 
 ### State Immutability and Backups
 Terraform state is treated as immutable. This means:
@@ -243,7 +247,8 @@ terraform {
   }
 }
 ```
-#### Note: Notice that the name given the required provider must be written the exact same as in the source. 
+[!NOTE]
+Notice that the name given the required provider must be written the exact same as in the source. 
 
 Each time a provider in added, you must run `terraform init` as this will download the provider. 
 
