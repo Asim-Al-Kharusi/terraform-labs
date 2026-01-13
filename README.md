@@ -11,6 +11,8 @@ Welcome to my terraform learning repo. This repo contains multiple labs that I h
 | Lab01 | This labs main purpose is to farmiliarise yourself with HCL syntax|
 | Lab02 | Using the azurerm provider to set up necessary infrastructure for a remote backend| 
 | Lab03 | Create and initialise remote backend and use to provison observability |
+| Lab04 | Create Azure Key Vault and assign role to manage resource |
+
 
 
 
