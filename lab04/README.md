@@ -38,3 +38,5 @@ resource "azurerm_role_assignment" "name" {
 ```
 The scope was set to the key vault meaning that when applied I was granted with the admin role, giving me permission to manage the entire resource. 
 
+## Diagnostic Setting
+Now that a key vault has been declared, it would be useful to have the metrics from the key vault collected centrally. I have chosen to create a diagnostic setting for the key vault with the destination being the log analytics workspace I set up in Lab03. **This was a good way to practice calling data sources of exsisting resources.**
