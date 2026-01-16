@@ -3,7 +3,7 @@ In this lab, I go over setting up a virtual network, breaking it down into vario
 
 ## Architecture 
 
-![Architecture Diagram](/images/network-diagram.png)
+![Architecture Diagram](/lab05/images/network-diagram.png)
 
 ### 🏗️ Architecture Overview
 The configuration deploys the following resource hierarchy:
